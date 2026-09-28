@@ -1,0 +1,7 @@
+/* Responsive rules. Breakpoints used: 960px (navbar), 900px (layout), 520px (small phones) */
+@media(max-width:900px){
+.ab,.ct{grid-template-columns:1fr;gap:36px}.g3,.tm{grid-template-columns:1fr}
+.sb{grid-template-columns:1fr 1fr;row-gap:18px}.sb div:nth-child(2){border:0}
+.tl{grid-template-columns:1fr 1fr;row-gap:28px}section{padding:64px 0}.hero{padding:64px 0 90px}}
+@media(max-width:520px){.two,.tl{grid-template-columns:1fr}}
+@media(max-width:960px){.dk{display:none}.hb{display:flex}.mp{display:block}nav>.lt{display:none}}
