@@ -50,7 +50,7 @@ Note: the navbar and footer are injected by JavaScript so they exist in one file
 
 ## Assets
 
-Images (logo, hero/service pictures, team photos, video thumbnails) are loaded from `https://clinginfotech.com/_next/image?...`. They could not be downloaded into `assets/` in the environment this project was built in. To make the site fully offline: save each image into `assets/images/` (logo into `assets/logos/`) and change its `src` in the HTML and in `js/navbar.js` (logo).
+Images are currently loaded from the company's website. To make the site fully offline, save the required images locally in assets/images/ and update their paths accordingly.
 
 Icons are small inline SVGs (in `js/navbar.js`), so `assets/icons/` is empty.
 
